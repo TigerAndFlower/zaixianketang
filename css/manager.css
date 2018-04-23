@@ -1,0 +1,1453 @@
+.wrap {
+    width: 1240px;
+    margin: 0 auto
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.btn {
+    display: inline-block
+}
+
+.transit {
+    -webkit-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -o-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden
+}
+
+.topbar {
+    height: 40px;
+    line-height: 40px;
+    background: #292B32;
+}
+
+.topbar .logo {
+    margin-left: 30px;
+    font-size: 22px;
+    color: #fff
+}
+
+.topbar .logo a {
+    color: #fff
+}
+
+.topbar .logo i {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.topbar .user {
+    color: #fff;
+    font-size: 14px
+}
+
+.topbar .user img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    vertical-align: middle
+}
+
+.topbar .user span {
+    margin-left: 8px;
+    margin-right: 24px
+}
+
+.topbar .user a {
+    color: #fff
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    bottom: 0;
+    background: #f1f1f1
+}
+
+.main .wrap {
+    height: 100%;
+    background: #fff
+}
+
+.main .side-bar,
+.main .wrapper {
+    height: 100%;
+    overflow: auto
+}
+
+.main .side-bar {
+    position: relative;
+    border-left: 1px solid #B7B7B7;
+    border-right: 1px solid #B7B7B7;
+    width: 190px
+}
+
+.main .side-bar ul {
+    margin-top: 20px
+}
+.main .side-bar .teacher-card {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #424242;
+    padding: 50px 0 60px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.main .side-bar .teacher-card p {
+    margin-left: 32px;
+    margin-top: 18px;
+    color: #ACACAC;
+}
+.main .side-bar .teacher-card p span {
+    margin-left: 24px;
+    color: #fff;
+}
+.main .side-bar ul a {
+    display: block;
+    line-height: 46px;
+    padding-left: 66px;
+    font-size: 14px;
+    color: #414749;
+    position: relative
+}
+
+.main .side-bar ul a i {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    width: 66px;
+    left: 0
+}
+
+.main .side-bar ul a.active {
+    color: #333;
+    background: #eee
+}
+
+.main .wrapper-s {
+    height: 100%;
+    font-size: 14px;
+    margin-left: 192px;
+    border-right: 1px solid #B7B7B7;
+    overflow: auto;
+}
+
+.main .wrapper-s .con-tit {
+    font-weight: normal;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #C20B09;
+    font-size: 20px;
+    color: #414749;
+    line-height: 1;
+    font-weight: bold
+}
+
+.main .wrapper {
+    font-size: 14px;
+    margin-left: 192px;
+    border-right: 1px solid #B7B7B7
+}
+
+.main .wrapper .con-tit {
+    font-weight: normal;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 14px;
+    font-size: 20px;
+    color: #414749;
+    line-height: 1;
+    font-weight: bold
+}
+
+.main .wrapper table {
+    font-size: 14px;
+    color: #414749
+}
+
+.main .wrapper table th {
+    border: 1px solid #E1E1E1;
+    color: #919191
+}
+
+.main .wrapper table th,
+.main .wrapper table td {
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    vertical-align: middle
+}
+
+.main .wrapper table tr>:first-child {
+    padding-left: 30px
+}
+
+.student-class-schedule td a {
+    float: right;
+    margin-right: 36px;
+    margin-top: -6px;
+    width: 60px;
+    line-height: 24px;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #27AEC2;
+}
+
+.student-class-schedule td a:hover {
+    background: #4A90E2;
+    color: #fff
+}
+
+.course-container>p {
+    padding: 24px 12px 12px 32px;
+    line-height: 1;
+    text-align: right
+}
+
+.course-container>p .course-name {
+    color: #414749
+}
+
+.course-container>p span {
+    color: #919191;
+    margin-right: 32px
+}
+
+.course-container>p span i {
+    color: #414749;
+    font-style: normal
+}
+
+.course-container table a {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #27AEC2;
+}
+
+.course-container table a:hover {
+    color: #27AEC2;
+}
+
+.course-container table img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: -4px;
+    vertical-align: middle
+}
+
+.course-container table .class-state {
+    color: #9E9E9E
+}
+
+.course-container table .after-class a+a,
+.course-container table .after-class span+span {
+    margin-left: 24px
+}
+
+.course-container table .my-teacher {
+    position: relative;
+    cursor: pointer
+}
+
+.course-container table .my-teacher .teacher-intro {
+    display: none;
+    position: absolute;
+    width: 307px;
+    height: 174px;
+    left: 100%;
+    top: -10px;
+    margin-left: -7px;
+    background: url(../images/kuang.png) no-repeat
+}
+
+.course-container table .my-teacher .teacher-intro>ul {
+    margin-left: 32px;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.course-container table .my-teacher .teacher-intro>ul li {
+    color: #919191;
+    margin-bottom: 20px
+}
+
+.course-container table .my-teacher .teacher-intro>ul li span {
+    color: #414749
+}
+
+.course-container table .my-teacher .teacher-intro>ul li+li span {
+    margin-left: 16px
+}
+
+.course-container table .my-teacher .teacher-intro>ul img {
+    width: 38px;
+    height: 38px;
+    margin-right: 12px
+}
+
+.order-item {
+    height: 95px
+}
+
+.order-item .order-head {
+    font-size: 12px;
+    line-height: 33px;
+    background: #F2F2F2
+}
+
+.order-item .order-head li {
+    float: left;
+    margin-left: 32px
+}
+
+.order-item .order-head .order-time {
+    color: #919191
+}
+
+.order-item .order-head .order-number {
+    color: #919191
+}
+
+.order-item .order-head .order-number span {
+    color: #333333;
+    margin-left: 8px
+}
+
+.order-item .order-head .order-payer {
+    color: #414749
+}
+
+.order-item .order-con {
+    height: 62px;
+    font-size: 14px
+}
+
+.order-item .order-con li {
+    float: left;
+    height: 62px;
+    line-height: 62px
+}
+
+.order-item .order-con .course-name {
+    padding-left: 32px;
+    width: 266px;
+    color: #414749
+}
+
+.order-item .order-con .course-duration {
+    width: 520px;
+    color: #414749
+}
+
+.order-item .order-con .course-duration span {
+    float: right;
+    width: 122px;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    margin-top: 14px
+}
+
+.order-item .order-con .course-price {
+    margin-left: 20px;
+    width: 70px;
+    color: #FF3333
+}
+
+.order-item .order-con .course-payment {
+    margin-left: 18px;
+    width: 88px;
+    text-align: center;
+    color: #666666
+}
+
+.order-item .order-con .course-payment .pay-btn {
+    display: block;
+    margin-top: 16px;
+    border: 1px solid #27AEC2;
+    color: #27AEC2;
+    line-height: 28px;
+    border-radius: 15px
+}
+
+.order-item .order-con .course-payment .pay-btn:hover {
+    color: #fff;
+    background: #27AEC2
+}
+
+.user-account {
+    margin-top: 32px;
+    margin-left: 42px;
+    font-size: 14px
+}
+
+.user-account .form-item {
+    padding-left: 61px;
+    line-height: 32px;
+    margin-bottom: 24px
+}
+
+.user-account .form-item .filed {
+    position: relative;
+    margin-left: 72px;
+    width: 272px;
+    color: #414749
+}
+
+.user-account .form-item .filed input {
+    width: 260px;
+    padding: 0;
+    padding-left: 10px;
+    border: 1px solid #D2D2D2;
+    height: 30px
+}
+
+.user-account .form-item label {
+    float: left;
+    width: 72px;
+    color: #919191
+}
+
+.user-account .form-item span.error {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 500px;
+    margin-left: 16px;
+    color: #FF3E3E
+}
+
+.user-account .student-info {
+    margin-bottom: 17px;
+    line-height: 45px
+}
+
+.user-account .student-info,
+.user-account .teacher-info {
+    position: relative
+}
+
+.user-account .student-info img,
+.user-account .teacher-info img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 0;
+    border-radius: 50%
+}
+
+.user-account .sub-btn {
+    width: 140px;
+    height: 38px;
+    border: none;
+    padding: 0;
+    color: #fff;
+    background: #4A90E2;
+    border-radius: 19px
+}
+
+.user-account .sub-btn:hover {
+    background: #5E9DE7
+}
+
+.schedule-empty,
+.appraise-empty {
+    margin-top: 32px;
+    margin-left: 35px;
+    color: #414749;
+    font-size: 14px
+}
+
+.schedule-empty i,
+.appraise-empty i {
+    font-size: 60px
+}
+
+.schedule-empty p,
+.appraise-empty p {
+    margin-top: 20px;
+    line-height: 28px
+}
+
+.schedule-empty .free-btn,
+.appraise-empty .free-btn {
+    width: 140px;
+    height: 38px;
+    color: #FF3E3E;
+    border: 1px solid #FF3E3E;
+    padding: 0;
+    margin-top: 32px;
+    background: #fff;
+    border-radius: 19px
+}
+
+.schedule-empty .free-btn:hover,
+.appraise-empty .free-btn:hover {
+    color: #fff;
+    background: #FF3E3E
+}
+
+.teacher-schedule a {
+    color: #4A90E2
+}
+
+.teacher-schedule a:hover {
+    color: #0076FF
+}
+
+.teacher-schedule img {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: -4px;
+    vertical-align: middle
+}
+
+.teacher-schedule .after-class a+a {
+    margin-left: 24px
+}
+
+.teacher-appraise .star {
+    color: #919191
+}
+
+.teacher-appraise .star img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: -4px;
+    vertical-align: middle
+}
+
+.teacher-my-students a {
+    color: #4A90E2
+}
+
+.teacher-my-students a:hover {
+    color: #0076FF
+}
+
+.teacher-my-students a+a {
+    margin-left: 24px
+}
+
+.my-schedule {
+    margin-top: 40px;
+    margin-left: 110px
+}
+
+.my-schedule .schedule-container {
+    height: 390px;
+    margin-bottom: 40px
+}
+
+.my-schedule .schedule-wrap {
+    width: 728px;
+    overflow: hidden;
+    position: relative
+}
+
+.my-schedule .schedule-wrap .schedule-wrapper {
+    position: relative;
+    right: 0
+}
+
+.my-schedule .schedule-wrap .button .prev-btn,
+.my-schedule .schedule-wrap .button .next-btn {
+    position: absolute;
+    top: 6px;
+    font-size: 30px;
+    color: #000;
+    z-index: 100;
+    cursor: pointer;
+    opacity: .6
+}
+
+.my-schedule .schedule-wrap .button .prev-btn:hover,
+.my-schedule .schedule-wrap .button .next-btn:hover {
+    opacity: 1
+}
+
+.my-schedule .schedule-wrap .button .prev-btn {
+    left: -6px
+}
+
+.my-schedule .schedule-wrap .button .next-btn {
+    right: -6px
+}
+
+.my-schedule .schedule-wrap .ope {
+    margin-top: 40px;
+    line-height: 38px;
+    text-align: right
+}
+
+.my-schedule .schedule-wrap .ope input {
+    margin: -2px 10px 0 0;
+    vertical-align: middle
+}
+
+.my-schedule .schedule-wrap .ope button {
+    width: 140px;
+    height: 38px;
+    margin-left: 30px;
+    margin-right: 8px;
+    background: #4A90E2;
+    border-radius: 19px;
+    color: #fff;
+    border: none;
+    padding: 0
+}
+
+.my-schedule .time-list {
+    margin-top: 66px;
+    margin-right: 12px
+}
+
+.my-schedule .time-list li {
+    line-height: 46px
+}
+
+.my-schedule table {
+    font-size: 14px;
+    color: #414749
+}
+
+.my-schedule table th {
+    width: 104px;
+    height: 66px;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 400
+}
+
+.my-schedule table th span {
+    display: block;
+    font-size: 20px;
+    color: #414749;
+    line-height: 20px;
+    margin-bottom: 8px
+}
+
+.my-schedule table td {
+    width: 104px;
+    height: 46px;
+    vertical-align: middle;
+    text-align: center
+}
+
+.my-schedule table td span {
+    display: block;
+    width: 86px;
+    margin: 0 auto;
+    line-height: 28px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DEDEDE;
+    border-radius: 4px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.my-schedule table .planed {
+    color: #919191;
+    background: #F0F0F0;
+    cursor: not-allowed
+}
+
+.my-schedule table .available:hover {
+    border-color: #64ACFF;
+    color: #64ACFF
+}
+
+.my-schedule table .choosed {
+    border-color: #64ACFF;
+    background: #64ACFF;
+    color: #fff
+}
+
+.popup-container {
+    display: none
+}
+
+.popup-container .popup-bg {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0
+}
+
+.popup-container .popup-wrap {
+    border-radius: 6px;
+    background: #fff;
+    position: fixed;
+    z-index: 1001;
+    width: 528px;
+    left: 50%;
+    margin-left: -264px;
+    top: 50%;
+    animation: popupZoomIn .5s ease-in-out
+}
+
+.popup-container .popup-title {
+    padding: 16px 24px;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #DEDEDE;
+    color: #333;
+    font-size: 15px
+}
+
+.popup-container .close-btn {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    font-size: 20px;
+    color: #919191;
+    cursor: pointer
+}
+
+.popup-container .popup-content {
+    padding: 24px
+}
+
+.popup-container .popup-content .no-work {
+    font-size: 15px;
+    color: #919191;
+    line-height: 20px
+}
+
+.popup-container .popup-content .work-question {
+    font-size: 17px;
+    color: #333333;
+    line-height: 26px;
+    margin-bottom: 10px;
+    max-height: 78px;
+    overflow: auto
+}
+
+.popup-container .popup-content .work-file,
+.popup-container .popup-content .student-answer-file {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #4A90E2;
+    line-height: 15px
+}
+
+.popup-container .popup-content .work-file a,
+.popup-container .popup-content .student-answer-file a {
+    color: #4A90E2
+}
+
+.popup-container .popup-content .answer-con {
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px
+}
+.popup-container .popup-content .answer-con .word-num {
+    /*float: right;
+    margin-top: -20px;*/
+    text-align: right;
+    font-size: 15px;
+    color: #919191;
+}
+.popup-container .popup-content .answer-con .word-num.oversize {
+    color: #c00;
+}
+
+.popup-container .popup-content .work-answer {
+    margin-top: 40px
+}
+
+.popup-container .popup-content .work-answer>p {
+    font-size: 15px;
+    color: #919191;
+    margin-bottom: 10px
+}
+
+.popup-container .popup-content .work-answer textarea {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    color: #333;
+    font-size: 15px;
+    resize: none
+}
+
+.popup-container .popup-content .work-upload {
+    position: relative
+}
+
+.popup-container .popup-content .work-upload label {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #4A90E2;
+    border-radius: 3px;
+    color: #4A90E2;
+    font-size: 15px
+}
+
+.popup-container .popup-content .work-upload .upload-field {
+    width: 0.2px;
+    height: 0.2px;
+    opacity: 0;
+    overflow: hidden
+}
+
+.popup-container .popup-content .work-submit {
+    margin-top: 30px;
+    text-align: right
+}
+
+.popup-container .popup-content .work-submit span {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    padding: 8px 20px;
+    background: #4A90E2;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.popup-container .popup-content .student-work-appraise {
+    margin-top: 24px;
+    line-height: 22px;
+    font-size: 15px;
+    color: #333333
+}
+
+.popup-container .popup-content .student-work-appraise .work-star {
+    display: block;
+    text-align: right
+}
+
+.popup-container .popup-content .student-work-appraise p {
+    font-size: 15px;
+    color: #919191;
+    line-height: 15px;
+    margin-bottom: 12px
+}
+
+.popup-container .popup-content .student-work-appraise p span {
+    color: #333333;
+    float: right
+}
+
+.popup-container .popup-content .my-answer {
+    font-size: 15px;
+    color: #333333;
+    line-height: 26px;
+    max-height: 130px;
+    overflow: auto
+}
+
+.popup-container .popup-content .student-appraise {
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #DEDEDE;
+    text-align: center
+}
+
+.popup-container .popup-content .student-appraise .stars {
+    font-size: 0
+}
+
+.popup-container .popup-content .student-appraise .stars span {
+    display: inline-block;
+    font-size: 28px;
+    margin: 0 6px
+}
+
+.popup-container .popup-content .student-appraise .stars .icon-star {
+    color: #F5A623
+}
+
+.popup-container .popup-content .student-appraise .stars .icon-starof {
+    color: #d0d0d0
+}
+
+.popup-container .popup-content .student-appraise .greed {
+    margin-top: 22px;
+    font-size: 15px;
+    color: #333;
+    line-height: 15px;
+    font-weight: bold
+}
+
+.popup-container .popup-content .classware-file {
+    font-size: 15px;
+    color: #4A90E2;
+    line-height: 15px;
+    margin-bottom: 16px
+}
+
+.popup-container .popup-content .classware-file a {
+    float: right;
+    color: #4A90E2
+}
+
+.popup-container .popup-content .no-classware {
+    font-size: 15px;
+    color: #333333
+}
+
+.popup-container .popup-content .score {
+    font-size: 15px;
+    color: #919191;
+    line-height: 30px
+}
+
+.popup-container .popup-content .score input {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    height: 30px;
+    padding: 0 6px;
+    width: 58px
+}
+
+.popup-container .popup-content .teacher-comment-cont {
+    margin-top: 24px
+}
+
+.popup-container .popup-content .teacher-comment-cont .my-comment {
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px
+}
+
+.popup-container .popup-content .teacher-comment-cont .my-comment textarea {
+    border: none;
+    padding: 0;
+    resize: none;
+    height: 78px;
+    font-size: 15px;
+    color: #333333;
+    line-height: 26px;
+    width: 100%
+}
+
+.popup-container .popup-content .teacher-comment-cont .teacher-remark {
+    font-size: 15px;
+    color: #333333;
+    line-height: 26px;
+    max-height: 78px;
+    overflow: auto
+}
+
+.popup-container .my-appraise {
+    padding-top: 6px;
+    color: #4A90E2;
+    font-size: 15px;
+    line-height: 20px
+}
+
+.popup-container .my-appraise input {
+    vertical-align: middle;
+    margin-top: 0;
+    margin-right: 10px
+}
+
+.popup-container .my-appraise input+input {
+    margin-left: 24px
+}
+
+.popup-container .teacher-info {
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DEDEDE;
+    font-size: 15px;
+    color: #333;
+    overflow: hidden
+}
+
+.popup-container .teacher-info .portrait {
+    float: left
+}
+
+.popup-container .teacher-info img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 16px
+}
+
+.popup-container .teacher-info .grade-star {
+    float: right;
+    margin-right: 16px;
+    line-height: 32px;
+    color: #333;
+    font-size: 15px
+}
+
+.popup-container .teacher-info .grade-star>span {
+    font-weight: bold
+}
+
+.popup-container .teacher-info .grade-star p {
+    float: right;
+    margin-left: 16px
+}
+
+.popup-container .teacher-info .grade-star p span {
+    font-size: 16px;
+    margin: 0 4px
+}
+
+.popup-container .teacher-info .grade-star p .icon-star {
+    color: #F5A623
+}
+
+.popup-container .teacher-info .grade-star p .icon-starof {
+    color: #d0d0d0
+}
+
+.popup-container .teacher-comment,
+.popup-container .class-comment {
+    padding-top: 16px;
+    font-size: 15px;
+    line-height: 22px;
+    max-height: 110px;
+    overflow: auto
+}
+
+.popup-container .teacher-comment.no-comment {
+    color: #919191
+}
+
+.popup-container .class-comment.no-comment {
+    color: #919191;
+    padding-top: 0
+}
+
+@keyframes popupZoomIn {
+    from {
+        transform: scale(0.6)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.pay-layer {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0
+}
+
+.pay-layer .pay-wrap {
+    width: 250px;
+    height: 240px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -126px;
+    margin-top: -159px;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0 1px 3px 0 rgba(193, 193, 193, 0.3)
+}
+
+.pay-layer .pay-wrap p {
+    font-size: 20px;
+    color: #333333;
+    margin-top: 30px;
+    text-align: center
+}
+
+.pay-layer .pay-wrap ul {
+    margin-top: 36px;
+    padding: 0 42px
+}
+
+.pay-layer .pay-wrap ul li {
+    padding-left: 24px;
+    margin-top: 25px;
+    border: 1px solid #DEDEDE;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #414749;
+    cursor: pointer
+}
+.pay-layer .pay-wrap ul li a{
+    color: #333;
+}
+
+.pay-layer .pay-wrap ul li:hover {
+    border-color: #f33
+}
+
+.pay-layer .pay-wrap ul li img {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right: 8px
+}
+
+.pay-layer .pay-wrap .close-btn {
+    position: absolute;
+    cursor: pointer;
+    font-size: 24px;
+    color: #919191;
+    right: 10px;
+    top: 4px
+}
+
+.teacher-my-courseware a {
+    color: #4A90E2
+}
+
+.teacher-my-courseware a:hover {
+    color: #0076FF
+}
+
+.teacher-my-courseware a+a {
+    margin-left: 54px
+}
+
+.teacher-manage-courseware td a {
+    color: #FF3E3E
+}
+
+.upload-courseware {
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.upload-courseware input {
+    width: 0.2px;
+    height: 0.2px;
+    opacity: 0;
+    overflow: hidden
+}
+
+.upload-courseware label {
+    display: inline-block;
+    margin-right: 20px;
+    background: #4A90E2;
+    border: 1px solid #5B90DC;
+    border-radius: 4px;
+    line-height: 36px;
+    color: #fff;
+    width: 140px;
+    text-align: center;
+    cursor: pointer
+}
+.upload-courseware p.note {
+    font-size: 14px;
+    color: #919191;
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.upload-courseware label i {
+    font-size: 30px;
+    margin-right: 6px;
+    vertical-align: middle
+}
+
+.teacher-manage-work input {
+    vertical-align: middle;
+    margin: -2px 8px 0 0
+}
+
+.teacher-manage-work td a {
+    color: #FF3E3E
+}
+
+.teacher-manage-work .pass {
+    color: #417505
+}
+
+.teacher-manage-work .no-pass {
+    color: #B92C28
+}
+
+.teacher-manage-work .delete-all {
+    display: inline-block;
+    line-height: 14px;
+    padding: 7px 21px;
+    border: 1px solid #5B90DC;
+    border-radius: 2px;
+    color: #5B90DC;
+    cursor: pointer
+}
+
+.upload-work-container {
+    width: 480px;
+    margin: 24px auto
+}
+
+.upload-work-container .form-cont {
+    margin-top: 24px
+}
+
+.upload-work-container .form-cont p {
+    font-size: 14px;
+    color: #919191;
+    line-height: 14px
+}
+
+.upload-work-container .form-cont .filed-wrap {
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    padding: 0 8px;
+    margin-top: 16px
+}
+
+.upload-work-container .work-title {
+    border: none;
+    padding: 0;
+    height: 36px;
+    width: 100%
+}
+
+.upload-work-container .work-content {
+    border: none;
+    height: 120px;
+    padding: 0;
+    width: 100%;
+    line-height: 36px;
+    resize: none
+}
+
+.upload-work-container .upload-file-con {
+    overflow: hidden;
+    margin-top: 16px;
+    height: 88px
+}
+
+.upload-work-container .upload-file-con label {
+    margin-right: 20px;
+    background: #4A90E2;
+    border: 1px solid #5B90DC;
+    border-radius: 4px;
+    line-height: 36px;
+    color: #fff;
+    width: 140px;
+    text-align: center;
+    cursor: pointer
+}
+
+.upload-work-container .upload-file-con label i {
+    font-size: 30px;
+    margin-right: 6px;
+    vertical-align: middle
+}
+
+.upload-work-container button {
+    border: none;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    height: 38px;
+    background: #4A90E2;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.teacher-manage-wrapper {
+    margin: 30px 12px 0
+}
+
+.teacher-manage-wrapper .tab {
+    height: 28px;
+    border-bottom: 2px solid #E8E8E8
+}
+
+.teacher-manage-wrapper .tab li {
+    float: left;
+    width: 136px;
+    text-align: center;
+    padding-bottom: 14px;
+    line-height: 14px
+}
+
+.teacher-manage-wrapper .tab li a {
+    font-size: 14px;
+    color: #919191
+}
+
+.teacher-manage-wrapper .tab li.active {
+    border-bottom: 2px solid #333333
+}
+
+.teacher-manage-wrapper .tab li.active a {
+    color: #414749;
+    font-weight: 500
+}
+
+.teacher-manage-wrapper .note {
+    margin: 16px 24px;
+    font-size: 14px;
+    color: #919191;
+    line-height: 20px
+}
+
+.teacher-manage-wrapper .add-file-con {
+    margin-top: 20px;
+    text-align: center
+}
+
+.teacher-manage-wrapper .add-file-con span {
+    display: inline-block;
+    width: 510px;
+    border: 1px solid #5B90DC;
+    color: #5B90DC;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 46px
+}
+
+.teacher-manage-wrapper .add-file-con span i {
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 8px
+}
+
+.teacher-manage-wrapper td a {
+    color: #FF3E3E
+}
+
+.teacher-manage-wrapper td span {
+    color: #417505
+}
+
+.work-file-wrap {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 13px
+}
+
+.work-file-wrap span {
+    float: left;
+    color: #919191
+}
+
+.work-file-wrap .work-file-list {
+    margin-left: 70px
+}
+
+.work-file-wrap .work-file-list li {
+    margin-bottom: 12px
+}
+
+.work-file-wrap .work-file-list a {
+    color: #4A90E2
+}
+
+.courseware-lists {
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DEDEDE
+}
+
+.courseware-lists ul {
+    margin-left: 24px;
+    max-height: 200px;
+    overflow: auto
+}
+
+.courseware-lists ul li {
+    margin-bottom: 24px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #414749
+}
+
+.courseware-lists ul li input {
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 14px
+}
+
+
+
+/*# sourceMappingURL=manager.css.map */
+
+
+/*分页器*/
+
+#pages {
+    padding: 14px 0 10px;
+    margin: 10px 0 0 20px;
+    font-size: 12px;
+}
+
+#pages a {
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 0 10px;
+    height: 22px;
+    line-height: 22px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    color: #333
+}
+
+#pages a:hover {
+    background: #f1f1f1;
+    color: #000;
+    text-decoration: none;
+}
+
+#pages a.paging_on {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    background: #FF3333;
+    border: 1px solid #FF3333;
+    color: #fff;
+    text-align: center;
+}
